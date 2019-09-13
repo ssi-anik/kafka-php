@@ -21,9 +21,11 @@ services:
     
     kafka:
         build: ./docker/kafka/
-        expose:
-            - 9092
+        ports:
+            - 9092:9092
         links:
+            - zookeeper
+        depends_on:
             - zookeeper
         environment:
             - ALLOW_PLAINTEXT_LISTENER=true
