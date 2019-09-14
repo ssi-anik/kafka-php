@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60618a61c6e4c4e1f87b1a535e0e936d",
+    "content-hash": "1430f7a164cb5091006d746a68a70120",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -2320,6 +2320,40 @@
                 "test"
             ],
             "time": "2016-01-20T08:20:44+00:00"
+        },
+        {
+            "name": "kwn/php-rdkafka-stubs",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kwn/php-rdkafka-stubs.git",
+                "reference": "093852073707708d434cfd293c5df36719edc765"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kwn/php-rdkafka-stubs/zipball/093852073707708d434cfd293c5df36719edc765",
+                "reference": "093852073707708d434cfd293c5df36719edc765",
+                "shasum": ""
+            },
+            "require": {
+                "ext-rdkafka": ">=3.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.2.4"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Karol Wnuk",
+                    "email": "k.wnuk@ascetic.pl"
+                }
+            ],
+            "description": "Rdkafka extension stubs for your IDE",
+            "time": "2019-08-27T20:35:53+00:00"
         },
         {
             "name": "mockery/mockery",
